@@ -103,11 +103,12 @@
         </div>
     </div>
     <div class="product">
-        <div class="container">
+        
             <div class="product__flex">
                 <div class="product__photo">
                     <img src="image/product-photo.png" alt="photo">
                 </div>
+                <div class="container">
                 <div class="product__info">
                     <div class="product__name">
                         <a class="product__name_link" href="#">WOMEN COLLECTION</a>
@@ -127,15 +128,24 @@
                     <div class="priduct__setting">
                         <div class="setting">
                             <p class="setting__title">CHOOSE COLOR</p>
-                            <a href="#" class="setting__link"></a>
+                            <a href="#" class="setting__link">
+                                <span class="setting__left">
+                                    <span class="link__block"></span>
+                                    <span class="link__block_text">Red</span>
+                                </span>
+                                <i class="fa fa-angle-down arrow__down" aria-hidden="true"></i>
+                            </a>
                         </div>
                         <div class="setting">
                             <p class="setting__title">CHOOSE SIZE</p>
-                            <a href="#" class="setting__link"></a>
+                            <a href="#" class="setting__link">
+                                <span class="link__block_margin">XXL</span>
+                                <i class="fa fa-angle-down arrow__down" aria-hidden="true"></i>
+                            </a>
                         </div>
                         <div class="setting">
                             <p class="setting__title">QUANTITY</p>
-                            <input class="setting__input" type="text">
+                            <input class="setting__input" type="text" placeholder="2">
                         </div>
                     </div>
                     <div class="product__add">
@@ -147,30 +157,54 @@
     </div>
     <div class="card__product">
         <div class="container">
-           <p class="card__product_items">you may like also</p>
+            <p class="card__product_items">you may like also</p>
             <div class="card__product_flex">
                 <div class="card__items_flex">
-                    <div class="card__items"><img src="image/1items.png" alt="#">
-                    </div>
-                    <div>
-                        <a class="price__items_name" href="#">BLAZE LEGGINGS</a>
-                        <a class="price__items" href="#">$52.00</a>
-                    </div>
-                </div>
-                <div class="card__items_flex">
-                    <div class="card__items"><img src="image/2items.png" alt="#">
-                    </div>
-                    <div>
-                        <a class="price__items_name" href="#">ALEXA SWEATER</a>
-                        <a class="price__items" href="#">$52.00</a>
+                    <div class="card card__items">
+                        <img src="image/1items.png" alt="photo" class="card__items_background">
+                        <a href="#" class="card__price_hover">
+                            <p class="card__text">BLAZE LEGGINGS</p>
+                            <p class="card__price">$52.00</p>
+                        </a>
+                        <div class="card__block_hover">
+                        </div>
+                        <a href="#" class="card__text_hover"><span class="card__text_center"><img class="card__image_padding" src="image/card__basket.svg" alt="basket"> Add to Cart</span></a>
                     </div>
                 </div>
                 <div class="card__items_flex">
-                    <div class="card__items"><img src="image/3items.png" alt="#">
+                    <div class="card card__items">
+                        <img src="image/2items.png" alt="photo" class="card__items_background">
+                        <a href="#" class="card__price_hover">
+                            <p class="card__text">ALEXA SWEATER</p>
+                            <p class="card__price">$52.00</p>
+                        </a>
+                        <div class="card__block_hover">
+                        </div>
+                        <a href="#" class="card__text_hover"><span class="card__text_center"><img class="card__image_padding" src="image/card__basket.svg" alt="basket"> Add to Cart</span></a>
                     </div>
-                    <div>
-                        <a class="price__items_name" href="#">AGNES TOP</a>
-                        <a class="price__items" href="#">$52.00</a>
+                </div>
+                <div class="card__items_flex">
+                    <div class="card card__items">
+                        <img src="image/3items.png" alt="photo" class="card__items_background">
+                        <a href="#" class="card__price_hover">
+                            <p class="card__text">AGNES TOP</p>
+                            <p class="card__price">$52.00</p>
+                        </a>
+                        <div class="card__block_hover">
+                        </div>
+                        <a href="#" class="card__text_hover"><span class="card__text_center"><img class="card__image_padding" src="image/card__basket.svg" alt="basket"> Add to Cart</span></a>
+                    </div>
+                </div>
+                <div class="card__items_flex">
+                    <div class="card card__items">
+                        <img src="image/4items.png" alt="photo" class="card__items_background">
+                        <a href="#" class="card__price_hover">
+                            <p class="card__text">SYLVA SWEATER</p>
+                            <p class="card__price">$52.00</p>
+                        </a>
+                        <div class="card__block_hover">
+                        </div>
+                        <a href="#" class="card__text_hover"><span class="card__text_center"><img class="card__image_padding" src="image/card__basket.svg" alt="basket"> Add to Cart</span></a>
                     </div>
                 </div>
             </div>
@@ -215,7 +249,7 @@
                 <div class="footer__title">
                     <div class="flex__logo">
                         <a href="#" class="logo__link_style"><img src="image/top_logo.png" alt="logo">
-                        <p class="footer__logo">BRAN<span class="text-logo__span">D</span></p>
+                            <p class="footer__logo">BRAN<span class="text-logo__span">D</span></p>
                         </a>
                     </div>
 
